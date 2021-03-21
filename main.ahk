@@ -38,7 +38,7 @@ Exit ;Auto-Execute ここまで
 #Include %A_ScriptDir%
 #Include altime.ahk
 #Include capslock.ahk
-#Include direct-imput.ahk
+#Include direct-input.ahk
 #Include explorer.ahk
 #Include myfunc.ahk
 #Include necrodancer.ahk

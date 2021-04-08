@@ -1,4 +1,4 @@
-﻿/*
+/*
 scは実際に搭載されているキー向け
 vkは搭載されていないキー向け
 
@@ -89,7 +89,7 @@ F14::
 
 
 ; ライトテーマ/ダークテーマ切り替え
-#M::
+	Send, {LWin Up}
 	subkey = SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize
 	RegRead, currentMode, HKCU, %subkey%, AppsUseLightTheme
 	newMode := currentMode == 0 ? 1 : 0

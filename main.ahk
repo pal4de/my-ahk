@@ -89,6 +89,7 @@ F14::
 
 
 ; ライトテーマ/ダークテーマ切り替え
+#M::
 	Send, {LWin Up}
 	subkey = SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize
 	RegRead, currentMode, HKCU, %subkey%, AppsUseLightTheme

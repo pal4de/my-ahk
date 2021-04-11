@@ -1,3 +1,1 @@
-# my-ahk
-
-CapsLockをF13に置き換えてます
+レジストリを書き換えてCapsLockをF13にしてます

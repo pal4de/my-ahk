@@ -3,15 +3,6 @@
 	^BackSpace::
 		Send, ^+{Left}{BackSpace}
 		Return
-	+^t::
-		Process, Exist, msedge.exe
-		; If ErrorLevel == 0
-		; {
-			Run, "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-			Sleep, 1000
-			Send, +^t
-		; }
-		Return
 #IfWinActive, ahk_class Shell_TrayWnd
 	MButton:: MButton
 #IfWinActive

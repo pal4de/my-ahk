@@ -1,4 +1,3 @@
-F13:: #s
 
 F13 & Tab:: LAlt
 F13 & Space:: AppsKey
@@ -26,6 +25,8 @@ F13 & y:: Home
 F13 & u:: PgDn
 F13 & i:: PgUp
 F13 & o:: End
+
+F13 & a:: #s
 
 F13 & f:: AltTab
 F13 & d:: ShiftAltTab

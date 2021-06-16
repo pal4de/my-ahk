@@ -28,3 +28,5 @@ F13 & f:: AltTab
 F13 & d:: ShiftAltTab
 F13 & g:: ^#Right
 F13 & s:: ^#Left
+
+F13 & 1:: Run "%USERPROFILE%\AppData\Local\1Password\app\7\1Password.exe"

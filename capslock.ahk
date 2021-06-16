@@ -1,3 +1,5 @@
+F13:: #s
+
 F13 & Tab:: LAlt
 F13 & Space:: AppsKey
 
@@ -10,13 +12,14 @@ F13 & Enter::
 	}
 	Return
 
-
 F13 & h:: Left
 F13 & j:: Down
 F13 & k:: Up
 F13 & l:: Right
 
 F13 & n:: ^Left
+F13 & m:: ^Down
+F13 & ,:: ^Up
 F13 & .:: ^Right
 
 F13 & y:: Home

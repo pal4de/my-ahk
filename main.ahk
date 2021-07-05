@@ -1,4 +1,4 @@
-﻿/*
+/*
 scは実際に搭載されているキー向け
 vkは搭載されていないキー向け
 
@@ -78,14 +78,6 @@ sc130:: LongPress("sc130", "{Media_Next}")
 	Send, {RButton Up}{MButton Up}
 	Send, {Esc}
 	Return
-
-
-; マウス側面ボタン
-F14::
-	ActivatePointeredWindow()
-	Send, !{Left}
-	Return
-
 
 ; ライトテーマ/ダークテーマ切り替え
 #M::

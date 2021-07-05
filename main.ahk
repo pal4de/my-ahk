@@ -96,16 +96,15 @@ F14::
 	RegWrite, REG_DWORD, HKCU, %subkey%, AppsUseLightTheme, %newMode%
 	Return
 
+; 日付挿入
 ::%%date::
 	FormatTime, DateString,, yyyy年MM月dd日
 	Send, %DateString%
 	Return
-
 ::%%time::
 	FormatTime, TimeString,, HH時mm分
 	Send, %TimeString%
 	Return
-
 ::%%datetime::
 	FormatTime, DateString,, yyyy年MM月dd日 HH時mm分
 	Send, %DateString%

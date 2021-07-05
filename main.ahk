@@ -1,4 +1,4 @@
-/*
+﻿/*
 scは実際に搭載されているキー向け
 vkは搭載されていないキー向け
 
@@ -101,3 +101,8 @@ sc130:: LongPress("sc130", "{Media_Next}")
 	FormatTime, DateString,, yyyy年MM月dd日 HH時mm分
 	Send, %DateString%
 	Return
+
+#IfWinActive ahk_exe code.exe
+	WheelRight:: Return
+	WheelLeft:: Return
+#IfWinActive

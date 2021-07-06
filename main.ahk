@@ -102,7 +102,7 @@ sc130:: LongPress("sc130", "{Media_Next}")
 	Send, %DateString%
 	Return
 
-; #IfWinActive ahk_exe code.exe
-; 	WheelRight:: Return
-; 	WheelLeft:: Return
-; #IfWinActive
+#IfWinActive ahk_exe code.exe
+	WheelRight:: +WheelDown
+	WheelLeft:: +WheelUp
+#IfWinActive

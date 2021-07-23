@@ -38,6 +38,7 @@ Exit ;Auto-Execute ここまで
 #Include %A_ScriptDir%
 #Include altime.ahk
 #Include capslock.ahk
+#Include code.ahk
 #Include explorer.ahk
 #Include myfunc.ahk
 #Include necrodancer.ahk
@@ -102,11 +103,3 @@ sc130:: LongPress("sc130", "{Media_Next}")
 	Send, %DateString%
 	Return
 
-#IfWinActive ahk_exe code.exe
-	WheelRight::
-		Send, +{WheelDown}
-		Return
-	WheelLeft::
-		Send, +{WheelUp}
-		Return
-#IfWinActive

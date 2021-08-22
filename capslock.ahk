@@ -1,8 +1,4 @@
-
-F13 & Tab:: LAlt
-F13 & Space:: AppsKey
-
-F13 & Enter::
+#^c::
 	state := GetKeyState("CapsLock", "T")
 	if (state) {
 		SetCapsLockState, AlwaysOff
@@ -10,6 +6,9 @@ F13 & Enter::
 		SetCapsLockState, AlwaysOn
 	}
 	Return
+
+F13 & Tab:: LAlt
+F13 & Space:: AppsKey
 
 F13 & h:: Left
 F13 & j:: Down

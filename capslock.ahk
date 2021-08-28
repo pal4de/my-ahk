@@ -27,8 +27,8 @@ F13 & o:: End
 
 F13 & a:: #s
 
-F13 & f:: AltTab
-F13 & d:: ShiftAltTab
+F13 & f:: !Esc
+F13 & d:: +!Esc
 F13 & g:: ^#Right
 F13 & s:: ^#Left
 

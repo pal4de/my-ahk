@@ -1,11 +1,11 @@
 vk05::
 sc069::
 	ActivatePointeredWindow()
-	Send, !{Left}
+	Send, !{Left}{LAlt Up}
 	Return
 sc06A::
 	ActivatePointeredWindow()
-	Send, !{Right}
+	Send, !{Right}{LAlt Up}
 	Return
 
 #NumpadUp::

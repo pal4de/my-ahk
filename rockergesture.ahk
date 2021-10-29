@@ -1,11 +1,11 @@
 #IfWinNotActive ahk_group Group_Disable_RockerGesture
 	~LButton & RButton::
-		ActivatePointeredWindow()
+		ActivatePointedWindow()
 		Send, {Browser_Forward}
 		flag_disableContextMenu := True
 		Return
 	~RButton & LButton::
-		ActivatePointeredWindow()
+		ActivatePointedWindow()
 		Send, {Browser_Back}
 		flag_disableContextMenu := True
 		Return

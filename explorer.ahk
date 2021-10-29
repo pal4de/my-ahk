@@ -13,14 +13,14 @@
 #IfWinActive
 
 ~MButton::
-	ActivatePointeredWindow()
+	ActivatePointedWindow()
 	IfWinActive, ahk_group Group_Explorer
 	{
 		Send, {RButton}E
 	}
 	Return
 MButton & RButton::
-	ActivatePointeredWindow()
+	ActivatePointedWindow()
 	IfWinActive, ahk_group Group_Explorer
 	{
 		Send, !{Up}

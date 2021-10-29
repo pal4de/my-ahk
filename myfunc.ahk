@@ -18,7 +18,7 @@ LongPress(key, long, short="%key%", t=0.4)
 	}
 	Return
 }
-ActivatePointeredWindow()
+ActivatePointedWindow()
 {
 	MouseGetPos, , , id
 	WinActivate, ahk_id %id%

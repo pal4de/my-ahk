@@ -37,7 +37,6 @@ Exit ;Auto-Execute ここまで
 
 #Include %A_ScriptDir%
 #Include capslock.ahk
-#Include code.ahk
 #Include explorer.ahk
 #Include myfunc.ahk
 #Include necrodancer.ahk

@@ -36,7 +36,6 @@ Exit ;Auto-Execute ここまで
 #InstallKeybdHook
 
 #Include %A_ScriptDir%
-#Include altime.ahk
 #Include capslock.ahk
 #Include code.ahk
 #Include explorer.ahk

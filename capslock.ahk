@@ -1,12 +1,3 @@
-#^c::
-	state := GetKeyState("CapsLock", "T")
-	if (state) {
-		SetCapsLockState, AlwaysOff
-	} else {
-		SetCapsLockState, AlwaysOn
-	}
-	Return
-
 F13 & Tab:: LAlt
 F13 & Space:: AppsKey
 
@@ -33,3 +24,12 @@ F13 & g:: ^#Right
 F13 & s:: ^#Left
 
 F13 & 1:: Run "%USERPROFILE%\AppData\Local\1Password\app\7\1Password.exe"
+
++F13::
+	state := GetKeyState("CapsLock", "T")
+	if (state) {
+		SetCapsLockState, AlwaysOff
+	} else {
+		SetCapsLockState, AlwaysOn
+	}
+	Return

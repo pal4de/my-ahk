@@ -25,7 +25,7 @@ F13 & s:: ^#Left
 
 F13 & 1:: Run "%USERPROFILE%\AppData\Local\1Password\app\7\1Password.exe"
 
-+F13::
+F13 & Enter::
 	state := GetKeyState("CapsLock", "T")
 	if (state) {
 		SetCapsLockState, AlwaysOff
@@ -33,3 +33,5 @@ F13 & 1:: Run "%USERPROFILE%\AppData\Local\1Password\app\7\1Password.exe"
 		SetCapsLockState, AlwaysOn
 	}
 	Return
+
+F13 & t:: #!q ; Todoist Quick Add

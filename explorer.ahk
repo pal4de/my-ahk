@@ -11,18 +11,3 @@
 #IfWinActive, ahk_class Shell_TrayWnd
 	MButton:: MButton
 #IfWinActive
-
-~MButton::
-	ActivatePointedWindow()
-	IfWinActive, ahk_group Group_Explorer
-	{
-		Send, {RButton}E
-	}
-	Return
-MButton & RButton::
-	ActivatePointedWindow()
-	IfWinActive, ahk_group Group_Explorer
-	{
-		Send, !{Up}
-	}
-	Return

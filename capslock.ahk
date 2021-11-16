@@ -20,8 +20,12 @@ F13 & a:: !Space ; PowerToys Run
 
 F13 & f:: !Esc
 F13 & d:: +!Esc
-F13 & g:: ^#Right
-F13 & s:: ^#Left
+F13 & g::
+	Send, {Blind}^#{Right}
+	Return
+F13 & s::
+	Send, {Blind}^#{Left}
+	Return
 
 F13 & 1:: Run "%USERPROFILE%\AppData\Local\1Password\app\7\1Password.exe"
 

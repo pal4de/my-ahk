@@ -27,7 +27,7 @@ F13 & s::
 	Send, {Blind}^#{Left}
 	Return
 
-F13 & 1:: Run "%USERPROFILE%\AppData\Local\1Password\app\7\1Password.exe"
+F13 & 1:: #!p
 
 F13 & Enter::
 	state := GetKeyState("CapsLock", "T")

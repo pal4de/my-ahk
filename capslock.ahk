@@ -21,10 +21,10 @@ F13 & a:: LWin ; Start
 F13 & f:: !Esc
 F13 & d:: +!Esc
 F13 & g::
-	Send, {Blind}^#{Right}
+	Send, ^#{Right}
 	Return
 F13 & s::
-	Send, {Blind}^#{Left}
+	Send, ^#{Left}
 	Return
 
 F13 & 1:: #!p

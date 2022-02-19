@@ -53,17 +53,6 @@ sc12E:: LongPress("sc12E", "{Media_Prev}")
 sc130:: LongPress("sc130", "{Media_Next}")
 
 
-; Ctrl + `のIME切り替えを抑止
-<^vkF3::
-<^vkF4::
-	Send, {RCtrl Down}{sc029}{RCtrl Up}
-	Return
->^vkF3::
->^vkF4::
-	Send, ^{sc029}
-	Return
-
-
 +#r:: Reload
 +#e:: Run, cmd.exe /c code "%USERPROFILE%\Documents\AutoHotKey",, hide
 

@@ -16,7 +16,7 @@ F13 & u:: PgDn
 F13 & i:: PgUp
 F13 & o:: End
 
-F13 & a:: LWin ; Start
+F13 & a:: !Space ; PowerToys Run
 
 F13 & f:: !Esc
 F13 & d:: +!Esc

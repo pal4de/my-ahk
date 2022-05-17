@@ -39,3 +39,13 @@ F13 & Enter::
 	Return
 
 F13 & t:: #!q ; Todoist Quick Add
+
+F13 & LButton::
+		ActivatePointedWindow()
+		Send, {Browser_Back}
+		Return
+F13 & RButton::
+		ActivatePointedWindow()
+		Send, {Browser_Forward}
+		Send {RCtrl DOWN}{Alt DOWN}{Alt UP}{RCtrl UP}
+		Return

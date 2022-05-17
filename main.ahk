@@ -40,7 +40,6 @@ Exit ;Auto-Execute ここまで
 #Include explorer.ahk
 #Include myfunc.ahk
 #Include necrodancer.ahk
-#Include rockergesture.ahk
 #Include touchpad.ahk
 
 

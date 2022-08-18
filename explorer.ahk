@@ -2,12 +2,12 @@
 	F1:: Esc
 	^BackSpace::
 		Send, ^+{Left}{BackSpace}
-		Return
+	Return
 
 	; Ctrl Shift PでPowerRun
 	^+P::
 		Send, !{Space}
-		Return
-#IfWinActive, ahk_class Shell_TrayWnd
-	MButton:: MButton
+	Return
+	#IfWinActive, ahk_class Shell_TrayWnd
+		MButton:: MButton
 #IfWinActive

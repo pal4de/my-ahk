@@ -2,7 +2,6 @@
 scは実際に搭載されているキー向け
 vkは搭載されていないキー向け
 
-
 +: Shift
 ^: Ctrl
 !: Alt
@@ -14,10 +13,8 @@ vkは搭載されていないキー向け
 ~: イベントを流しつつ～
 $: AHKからの呼び出しを無効化
 
-
 sc163: [Fn]
 vk1C: [変換]
-
 
 CapsLockをレジストリエディタで書き換えてF13にリマップしてます！！！！
 */
@@ -42,7 +39,6 @@ Exit ;Auto-Execute ここまで
 #Include necrodancer.ahk
 #Include touchpad.ahk
 
-
 ; long [Fn] + [F1]|[F2]|[F3] -> [再生停止]|[前へ]|[次へ]
 ; sc120: [Fn] + [F1]
 ; sc12E: [Fn] + [F2]
@@ -50,7 +46,6 @@ Exit ;Auto-Execute ここまで
 sc120:: LongPress("sc120", "{Media_Play_Pause}")
 sc12E:: LongPress("sc12E", "{Media_Prev}")
 sc130:: LongPress("sc130", "{Media_Next}")
-
 
 +#r:: Reload
 +#e:: Run, cmd.exe /c code "%USERPROFILE%\Documents\AutoHotKey",, hide
@@ -64,7 +59,7 @@ sc130:: LongPress("sc130", "{Media_Next}")
 	Send, {Up Up}{Left Up}{Right Up}{Down Up}
 	Send, {RButton Up}{MButton Up}
 	Send, {Esc}
-	Return
+Return
 
 ; ライトテーマ/ダークテーマ切り替え
 #M::
@@ -73,19 +68,19 @@ sc130:: LongPress("sc130", "{Media_Next}")
 	RegRead, currentMode, HKCU, %subkey%, AppsUseLightTheme
 	newMode := currentMode == 0 ? 1 : 0
 	RegWrite, REG_DWORD, HKCU, %subkey%, AppsUseLightTheme, %newMode%
-	Return
+Return
 
 ; 日付挿入
 ::%%date::
 	FormatTime, DateString,, yyyy年MM月dd日
 	Send, %DateString%
-	Return
+Return
 ::%%time::
 	FormatTime, TimeString,, HH時mm分
 	Send, %TimeString%
-	Return
+Return
 ::%%datetime::
 	FormatTime, DateString,, yyyy年MM月dd日 HH時mm分
 	Send, %DateString%
-	Return
+Return
 

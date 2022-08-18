@@ -2,17 +2,17 @@ vk05::
 sc069::
 	ActivatePointedWindow()
 	Send, !{Left}{LAlt Up}
-	Return
+Return
 sc06A::
 	ActivatePointedWindow()
 	Send, !{Right}{LAlt Up}
-	Return
+Return
 
 #NumpadUp::
 	ActivatePointedWindow()
 	Send, #{NumpadUp}
-	Return
+Return
 #NumpadDown::
 	ActivatePointedWindow()
 	Send, #{NumpadDown}
-	Return
+Return

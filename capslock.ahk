@@ -22,10 +22,10 @@ F13 & f:: !Esc
 F13 & d:: +!Esc
 F13 & g::
 	Send, ^#{Right}
-	Return
+Return
 F13 & s::
 	Send, ^#{Left}
-	Return
+Return
 
 F13 & 1:: #!p
 
@@ -36,16 +36,16 @@ F13 & Enter::
 	} else {
 		SetCapsLockState, AlwaysOn
 	}
-	Return
+Return
 
 F13 & t:: #!q ; Todoist Quick Add
 
 F13 & LButton::
-		ActivatePointedWindow()
-		Send, {Browser_Back}
-		Return
+	ActivatePointedWindow()
+	Send, {Browser_Back}
+Return
 F13 & RButton::
-		ActivatePointedWindow()
-		Send, {Browser_Forward}
-		Send {RCtrl DOWN}{Alt DOWN}{Alt UP}{RCtrl UP}
-		Return
+	ActivatePointedWindow()
+	Send, {Browser_Forward}
+	Send {RCtrl DOWN}{Alt DOWN}{Alt UP}{RCtrl UP}
+Return

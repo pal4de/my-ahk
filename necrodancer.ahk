@@ -1,4 +1,4 @@
-#IfWinActive ahk_exe NecroDancer.exe
+﻿#IfWinActive ahk_exe NecroDancer.exe
 	Space:: Enter
 
 	W:: Up

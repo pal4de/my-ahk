@@ -1,4 +1,4 @@
-vk05::
+﻿vk05::
 sc069::
 	ActivatePointedWindow()
 	Send, !{Left}{LAlt Up}

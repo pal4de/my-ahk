@@ -1,4 +1,4 @@
-F13 & Tab:: LAlt
+﻿F13 & Tab:: LAlt
 F13 & Space:: AppsKey
 
 F13 & h:: Left

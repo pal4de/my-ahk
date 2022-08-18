@@ -1,2 +1,2 @@
-#InstallKeybdHook
+﻿#InstallKeybdHook
 #InstallMouseHook

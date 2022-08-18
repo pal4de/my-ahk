@@ -1,4 +1,4 @@
-#IfWinActive ahk_exe explorer.exe
+﻿#IfWinActive ahk_exe explorer.exe
 	F1:: Esc
 	^BackSpace::
 		Send, ^+{Left}{BackSpace}

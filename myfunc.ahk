@@ -1,4 +1,4 @@
-LongPress(key, long, short="%key%", t=0.4)
+﻿LongPress(key, long, short="%key%", t=0.4)
 {
 	t := "T" . t
 	if (short == "%key%") {

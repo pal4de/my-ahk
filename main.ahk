@@ -39,6 +39,8 @@ Exit ;Auto-Execute ここまで
 #Include necrodancer.ahk
 #Include touchpad.ahk
 
+#Include *i local.ahk
+
 ; long [Fn] + [F1]|[F2]|[F3] -> [再生停止]|[前へ]|[次へ]
 ; sc120: [Fn] + [F1]
 ; sc12E: [Fn] + [F2]

@@ -38,6 +38,7 @@ Exit ;Auto-Execute ここまで
 #Include myfunc.ahk
 #Include necrodancer.ahk
 #Include touchpad.ahk
+#Include hotstrings.ahk
 
 #Include *i local.ahk
 

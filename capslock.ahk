@@ -20,10 +20,10 @@ F13 & a:: !Space ; PowerToys Run
 
 F13 & f:: !Esc
 F13 & d:: +!Esc
-F13 & g::
+F13 & g up::
 	Send, ^#{Right}
 Return
-F13 & s::
+F13 & s up::
 	Send, ^#{Left}
 Return
 

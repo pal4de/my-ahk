@@ -1,33 +1,16 @@
-﻿F13 & Tab:: LAlt
-F13 & Space:: AppsKey
+﻿F13 & b:: Left
+F13 & n:: Down
+F13 & p:: Up
+F13 & f:: Right
+F13 & a:: Home
+F13 & e:: End
+F13 & d:: Delete
+F13 & h:: Backspace
+F13 & k:: Send {Shift Down}{End}{Shift Up}{Delete}
+F13 & o:: Send {End}{Enter}
 
-F13 & h:: Left
-F13 & j:: Down
-F13 & k:: Up
-F13 & l:: Right
-
-F13 & n:: ^Left
-F13 & m:: ^Down
-F13 & ,:: ^Up
-F13 & .:: ^Right
-
-F13 & y:: Home
-F13 & u:: PgDn
-F13 & i:: PgUp
-F13 & o:: End
-
-F13 & a:: !Space ; PowerToys Run
-
-F13 & f:: !Esc
-F13 & d:: +!Esc
-F13 & g up::
-	Send, ^#{Right}
-Return
-F13 & s up::
-	Send, ^#{Left}
-Return
-
-F13 & 1:: #!p
+F13 & q:: !F4
+F13 & Space:: !Space
 
 F13 & Enter::
 	state := GetKeyState("CapsLock", "T")
@@ -37,8 +20,6 @@ F13 & Enter::
 		SetCapsLockState, AlwaysOn
 	}
 Return
-
-F13 & t:: #!q ; Todoist Quick Add
 
 F13 & LButton::
 	ActivatePointedWindow()
